@@ -11,7 +11,7 @@ require('dotenv').config();
 
 // root endpoint
 app.get('/', (req, res) => {
-    res.send(`Hello World version 5- ${process.env.ENVIRONMENT}`);
+    res.send(`Hello World version 10 - ${process.env.ENVIRONMENT}`);
 });
 
 // start server
